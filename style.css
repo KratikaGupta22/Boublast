@@ -1,0 +1,1043 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: "boublast1";
+    src: url(boublast1.otf);
+}
+
+@font-face {
+    font-family: "boublast2";
+    src: url(boublast2.ttf);
+}
+
+#page1 {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: #FFEDEC;
+}
+
+#nav {
+    width: 100%;
+    height: 7%;
+    background-color: #FFDAE3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#nav-part1 {
+    display: flex;
+    gap: 10px;
+    font-family: sans-serif;
+    color: #F95897;
+    font-size: 12px;
+    font-weight: 100;
+    position: relative;
+    left: 280px;
+}
+
+#nav-part1 h3 {
+    letter-spacing: 4px;
+    padding: 0px 8px;
+
+}
+
+#nav-part1 h3:hover {
+    color: #FFFFFF;
+}
+
+#nav-part2 {
+    position: relative;
+    left: 200px;
+}
+
+#nav-part2 #circle {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    text-align: center;
+    background-color: #FFB26A;
+    position: absolute;
+    top: -7px;
+    left: 25px;
+}
+
+#nav-part2 h3 {
+    color: #C4ABE5;
+    font-size: 25px;
+}
+
+#nav-part3 {
+    padding: 10px 13px;
+    width: 11%;
+    height: 100%;
+    background-color: #FFA6B8;
+}
+
+#nav-part3 i {
+    font-size: 25px;
+}
+
+#logo {
+    width: 100%;
+    height: 35%;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+#logo img {
+    position: absolute;
+    left: 28%;
+    top: 5%;
+}
+
+#menu {
+    font-size: 70px;
+    font-weight: 100;
+    position: absolute;
+    top: 35%;
+    left: 80%;
+    color: #C4ABE5;
+}
+
+#nav-2 {
+    width: 100%;
+    height: 7%;
+    background-color: #FFDAE3;
+    position: relative;
+}
+
+#nav-2part-1 {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    padding: 0px 350px;
+
+}
+
+#nav-2part-1 h3 {
+    color: #F95881;
+    font-family: sans-serif;
+    padding: 15px 0px;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+#nav-2part-1 h3:hover {
+    color: #FFFFFF;
+}
+
+#page1-part1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #FFEDEC;
+}
+
+#page1-part1 #right {
+    height: 100%;
+    width: 55%;
+    position: relative;
+}
+
+#right #img {
+    width: 65%;
+    height: 89%;
+    position: absolute;
+    top: 8%;
+    left: 20%;
+    border: 8px solid white;
+}
+
+#page1-part1 #left {
+    height: 100%;
+    width: 45%;
+    position: relative
+}
+
+#left #text h1 {
+    font-family: "boublast1";
+    position: absolute;
+    top: 16%;
+    left: 1%;
+    font-size: 70px;
+    color: #F95881;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+#left #text h2 {
+    font-family: "boublast2";
+    font-size: 100px;
+}
+
+#left #text h2:nth-child(2) {
+    position: absolute;
+    top: 31%;
+    left: 9%;
+    color: #FF859D;
+}
+
+#left #text h2:nth-child(3) {
+    position: absolute;
+    top: 31%;
+    left: 21%;
+    color: #FFA857;
+}
+
+#left #text h2:nth-child(4) {
+    position: absolute;
+    top: 31%;
+    left: 30%;
+    color: #C4ABE5;
+}
+
+#left #text h2:nth-child(5) {
+    position: absolute;
+    top: 47%;
+    left: -12%;
+    color: #FF859D;
+}
+
+#left #text h2:nth-child(6) {
+    position: absolute;
+    top: 47%;
+    color: #C4ABE5;
+}
+
+#left #text h2:nth-child(7) {
+    position: absolute;
+    top: 47%;
+    left: 11%;
+    color: #FFC8AE;
+}
+
+#left #text h2:nth-child(8) {
+    position: absolute;
+    top: 47%;
+    left: 22%;
+    color: #FF859D;
+}
+
+#left #text h2:nth-child(9) {
+    position: absolute;
+    top: 47%;
+    left: 28%;
+    color: #FFA857;
+}
+
+#left #text h2:nth-child(10) {
+    position: absolute;
+    top: 47%;
+    left: 37%;
+    color: #C4ABE5;
+}
+
+#left #text h2:nth-child(11) {
+    position: absolute;
+    top: 47%;
+    left: 49%;
+    color: #FFC49B;
+}
+
+#left #text h2:nth-child(12) {
+    position: absolute;
+    top: 47%;
+    left: 59%;
+    color: #FF859D;
+}
+
+
+#left #text h3 {
+    font-family: "boublast2";
+    position: absolute;
+    top: 66%;
+    left: 3%;
+    font-size: 60px;
+    color: #FFA857;
+    letter-spacing: 2px;
+    font-weight: 100;
+
+}
+
+#left #text button {
+    position: absolute;
+    top: 82%;
+    left: 18%;
+    padding: 20px 30px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background-color: #CCC8F8;
+}
+
+#left #text button:hover {
+    background-color: #F95881;
+}
+
+#white {
+    width: 100%;
+    height: 65%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#white h1 {
+    font-size: 55px;
+    font-family: "boublast2";
+    font-weight: 300;
+    color: #FFA857;
+    margin-top: 3.5%;
+}
+
+#white p {
+    width: 50%;
+    font-size: 16.5px;
+    line-height: 1.5em;
+    font-family: sans-serif;
+    color: #840052;
+    margin-top: 1.5%
+}
+
+#white img {
+    margin-top: 25px;
+    height: 120px;
+}
+
+#page2 {
+    width: 100%;
+    height: 110%;
+    background-color: #FFEDEC;
+    position: relative;
+}
+
+#page2>h1 {
+    font-family: "boublast1";
+    color: #F95881;
+    font-size: 70px;
+    font-weight: 100;
+    text-align: center;
+    position: absolute;
+    top: 6%;
+    left: 35%;
+}
+
+#page2-frames {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 18%;
+    left: 7%;
+    display: flex;
+    gap: 50px;
+}
+
+#frame1 {
+    width: 30%;
+    height: 69%;
+    background-color: #FFA6B8;
+    position: relative;
+}
+
+#frame1 img {
+    height: 380px;
+    border: 11px solid white;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+
+}
+
+#frame1 img:hover {
+    opacity: 0.8;
+}
+
+#frame1 h1 {
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 5%;
+    left: 22%;
+    font-weight: 200;
+    color: #333359;
+}
+
+#frame2 {
+    width: 30%;
+    height: 69%;
+    background-color: #FFA6B8;
+    position: relative;
+}
+
+#frame2 img {
+    height: 380px;
+    border: 11px solid white;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+
+}
+
+#frame2 img:hover {
+    opacity: 0.8;
+}
+
+#frame2 h1 {
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 5%;
+    left: 22%;
+    font-weight: 200;
+    color: #333359;
+}
+
+#frame3 {
+    width: 30%;
+    height: 69%;
+    background-color: #FFA6B8;
+    position: relative;
+}
+
+#frame3 img {
+    height: 380px;
+    border: 11px solid white;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+
+}
+
+#frame3 img:hover {
+    opacity: 0.8;
+}
+
+#frame3 h1 {
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 5%;
+    left: 18%;
+    font-weight: 200;
+    color: #333359;
+}
+
+#page2 button {
+    position: absolute;
+    bottom: 2%;
+    left: 45%;
+    padding: 23px 30px;
+    border: none;
+    background-color: #FFA857;
+    color: white;
+    font-size: 20px;
+}
+
+#page2 button:hover {
+    background-color: #FBADBD;
+}
+
+#page2-part2 {
+    width: 100%;
+    height: 62%;
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 20px;
+    padding: 50px 30px;
+}
+
+#card1 {
+    width: 350px;
+    height: 350px;
+    background-color: #FF859D;
+    position: relative;
+}
+
+#card1 h1 {
+    font-family: "boublast1";
+    color: #fff;
+    font-size: 90px;
+    font-weight: 100;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+#card1 h2 {
+    font-family: "boublast2";
+    color: #fff;
+    font-size: 80px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+
+#card2 {
+    width: 350px;
+    height: 350px;
+    background-color: #CCC8F1;
+    position: relative;
+}
+
+#card2 h1 {
+    font-family: "boublast1";
+    color: #fff;
+    font-size: 90px;
+    font-weight: 100;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+
+#card2 h2 {
+    font-family: "boublast2";
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 47%;
+    left: 9%;
+}
+
+#card3 {
+    width: 350px;
+    height: 350px;
+    background-color: #FFBFCC;
+    position: relative;
+}
+
+#card3 h1 {
+    font-family: "boublast1";
+    color: #fff;
+    font-size: 90px;
+    font-weight: 100;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+#card3 h2 {
+    font-family: "boublast2";
+    color: #fff;
+    font-size: 70px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 48%;
+    left: 15%;
+}
+
+#card4 {
+    width: 350px;
+    height: 350px;
+    background-color: #FFA857;
+    position: relative;
+
+}
+
+#card4 h1 {
+    font-family: "boublast1";
+    color: #fff;
+    font-size: 90px;
+    font-weight: 100;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+
+#card4 h2 {
+    font-family: "boublast2";
+    color: #fff;
+    font-size: 70px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 48%;
+    left: 20%;
+}
+
+#page3 {
+    width: 100%;
+    height: 100%;
+    background-color: #FFEDEC;
+    position: relative;
+}
+
+#page3>h1 {
+    color: #FFA857;
+    font-family: "boublast2";
+    font-size: 60px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 5%;
+    left: 37%;
+}
+
+#page3 #images {
+    width: 97%;
+    height: 60%;
+    /* background-color: #F95881; */
+    position: absolute;
+    top: 18%;
+    left: 2%;
+    /* justify-content: space-around; */
+    display: flex;
+    gap: 20px;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+#page3 #images::-webkit-scrollbar {
+    display: none;
+}
+
+#images img {
+    width: 280px;
+    height: 400px;
+    transition: all ease 1s;
+    /* scale: 0.9; */
+
+
+}
+
+#images img:hover {
+    scale: 1.2;
+}
+
+#page3 #price {
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 68%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#page3 #price h2 {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #333333;
+    margin-top: 3%;
+    margin-right: 8%;
+
+}
+
+#page3 #price span {
+    color: gray;
+}
+
+#page3 button {
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+    padding: 20px 25px;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    background-color: #FFA857;
+}
+
+#page3 button:hover {
+    background-color: #FBADBD;
+}
+
+#page4 {
+    width: 100%;
+    height: 100%;
+    background-color: #ffff;
+    display: flex;
+}
+
+#page4>h4 {
+    font-size: 65px;
+    font-family: "boublast1";
+    color: #FFA857;
+    font-weight: 100;
+    rotate: -20deg;
+    position: absolute;
+    left: 5%;
+    top: 490%;
+}
+
+#page4 #photo {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page4 #para {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+#page4 #photo #photodiv {
+    width: 85%;
+    height: 85%;
+    background-color: #FFDAE3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page4 #photo #photodiv img {
+    height: 550px;
+    width: 650px;
+}
+
+#page4 #para h1 {
+    color: #F95881;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+#page4 #para p {
+    width: 90%;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #000000;
+
+}
+
+#page4 #para button {
+    width: 200px;
+    height: 60px;
+    border: none;
+    background-color: #FFAA5A;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+#page4 #para button:hover {
+    background-color: #FF859D;
+}
+
+#page5 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #FFEDEC;
+}
+
+#page5 #side1 {
+    height: 100%;
+    width: 55%;
+    position: relative;
+}
+
+#side1 #p1 {
+    width: 50%;
+    height: 59%;
+    rotate: -8deg;
+    position: absolute;
+    top: 5%;
+    left: 24%;
+    border: 12px solid white;
+}
+
+#side1 #p2 {
+    width: 40%;
+    height: 45%;
+    rotate: -8deg;
+    position: absolute;
+    top: 35%;
+    left: 3%;
+    border: 12px solid white;
+}
+
+#page5 #side2 {
+    height: 100%;
+    width: 45%;
+    position: relative
+}
+
+#side2 #text-side2 h1 {
+    font-family: "boublast1";
+    position: absolute;
+    top: 14%;
+    left: 1%;
+    font-size: 70px;
+    color: #F95881;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+#side2 #text-side2 h3 {
+    font-family: "boublast2";
+    position: absolute;
+    top: 28%;
+    left: 3%;
+    font-size: 80px;
+    color: #FFA857;
+    letter-spacing: 2px;
+    font-weight: 100;
+
+}
+
+#side2 #text-side2 h2 {
+    font-family: "boublast2";
+    font-size: 80px;
+}
+
+#side2 #text-side2 h2:nth-child(3) {
+    position: absolute;
+    top: 42%;
+    left: -15%;
+    color: #FF859D;
+}
+
+#side2 #text-side2 h2:nth-child(4) {
+    position: absolute;
+    top: 42%;
+    left: -5%;
+    color: #FFA857;
+}
+
+#side2 #text-side2 h2:nth-child(5) {
+    position: absolute;
+    top: 42%;
+    left: 3%;
+    color: #C4ABE5;
+}
+
+#side2 #text-side2 h2:nth-child(6) {
+    position: absolute;
+    top: 42%;
+    left: 23%;
+    color: #FF859D;
+}
+
+#side2 #text-side2 h2:nth-child(7) {
+    position: absolute;
+    top: 42%;
+    left: 31%;
+    color: #C4ABE5;
+}
+
+#side2 #text-side2 h2:nth-child(8) {
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    color: #FFC8AE;
+}
+
+#side2 #text-side2 h2:nth-child(9) {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    color: #FF859D;
+}
+
+#side2 #text-side2 h2:nth-child(10) {
+    position: absolute;
+    top: 42%;
+    left: 60%;
+    color: #FFA857;
+}
+
+
+#side2 #text-side2 h2:nth-child(11) {
+    position: absolute;
+    top: 42%;
+    left: 70%;
+    color: #C4ABE5;
+}
+
+#side2 #text-side2 p {
+    width: 100%;
+    font-weight: 100;
+    letter-spacing: 1px;
+    position: absolute;
+    line-height: 25px;
+    top: 56%;
+    left: -15%;
+    color: gray;
+}
+
+#side2 #text-side2 button {
+    position: absolute;
+    top: 82%;
+    left: 18%;
+    padding: 18px 35px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background-color: #CCC8F8;
+}
+
+#side2 #text-side2 button:hover {
+    background-color: #F95881;
+}
+
+#page6 {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: relative;
+}
+
+#page6>h1 {
+    color: #FFA857;
+    font-family: "boublast2";
+    font-size: 60px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 5%;
+    left: 37%;
+}
+
+#page6 #images1 {
+    width: 97%;
+    height: 60%;
+    position: absolute;
+    top: 18%;
+    left: 2%;
+    display: flex;
+    gap: 3px;
+}
+
+#images1 img {
+    width: 380px;
+    height: 520px;
+    transition: all ease 1s;
+    scale: 0.9;
+    overflow: hidden;
+}
+
+#images1 img:hover {
+    scale: 1.0;
+}
+
+#page6 #price1 {
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#page6 #price1 h2 {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #333333;
+    margin-top: 3%;
+    margin-right: 14%;
+
+}
+
+#page6 #price1 span {
+    color: gray;
+}
+
+#page7 {
+    width: 100%;
+    height: 55%;
+    background-color: #FFEDEC;
+}
+
+#page7 #text-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+    padding: 70px 0px;
+}
+
+#page7 #text-items #subscribe {
+    display: flex;
+    letter-spacing: 8px;
+}
+
+#text-items #subscribe h1 {
+    font-family: "boublast2";
+    font-size: 80px;
+}
+
+#text-items #subscribe h1:nth-child(1) {
+    color: #FF859D;
+}
+
+#text-items #subscribe h1:nth-child(2) {
+    color: #FFA857;
+}
+
+#text-items #subscribe h1:nth-child(3) {
+    color: #C4ABE5;
+}
+
+#text-items #subscribe h1:nth-child(4) {
+    color: #FF859D;
+}
+
+#text-items #subscribe h1:nth-child(5) {
+
+    color: #C4ABE5;
+}
+
+#text-items #subscribe h1:nth-child(6) {
+    color: #FFC8AE;
+}
+
+#text-items #subscribe h1:nth-child(7) {
+    color: #FF859D;
+}
+
+#text-items #subscribe h1:nth-child(8) {
+    color: #FFA857;
+}
+
+
+#text-items #subscribe h1:nth-child(9) {
+    color: #C4ABE5;
+}
+
+#page7 #text-items h2 {
+    color: #FFA857;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#text-items #answer input {
+    padding: 14px 50px;
+    border: 2px solid #FF4040;
+}
+
+#text-items #answer button {
+    padding: 12px 25px;
+    color: #fff;
+    border: none;
+    background-color: #FFA857;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#text-items #answer button:hover {
+    background-color: #F95881;
+}
