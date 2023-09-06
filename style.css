@@ -8,6 +8,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+
 }
 
 @font-face {
@@ -27,7 +28,7 @@ body {
 
 #main {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: #FFEDEC;
 }
 
@@ -1040,4 +1041,176 @@ body {
 
 #text-items #answer button:hover {
     background-color: #F95881;
+}
+
+#page8 {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#page8 #pink {
+    width: 90%;
+    height: 85%;
+    background-color: #FFEDEC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+#page8 h1 {
+    font-family: "boublast1";
+    color: #F95881;
+    font-size: 80px;
+    font-weight: 400;
+    position: absolute;
+    top: 2.5%;
+}
+
+#pink #photo1 img {
+    width: 380px;
+    height: 480px;
+}
+
+#pink #photo1 h2 {
+    position: absolute;
+    top: 76%;
+    color: white;
+    font-family: sans-serif;
+    left: 67%;
+}
+
+#pink #photo1 h2:hover {
+    color: #F95897;
+}
+
+#pink #photo2 img {
+    width: 380px;
+    height: 480px;
+}
+
+#pink #photo2 h2 {
+    position: absolute;
+    top: 76%;
+    color: white;
+    font-family: sans-serif;
+    left: 39%;
+    font-size: 20px;
+}
+
+#pink #photo2 h2:hover {
+    color: #F95897;
+}
+
+#pink #photo3 img {
+    width: 380px;
+    height: 480px;
+}
+
+#pink #photo3 h2 {
+    position: absolute;
+    top: 76%;
+    color: white;
+    font-family: sans-serif;
+    left: 13%;
+}
+
+#pink #photo3 h2:hover {
+    color: #F95897;
+}
+
+#page9 {
+    width: 100%;
+    height: 100%;
+    background-color: #FFEDEC;
+    position: relative;
+
+}
+
+#page9 h2 {
+    font-family: "boublast1";
+    color: #FFA857;
+    font-size: 70px;
+    font-weight: 400;
+    position: absolute;
+    left: 37%;
+    top: 10%;
+}
+
+#page9 #instagram {
+    display: flex;
+    letter-spacing: 5px;
+    position: absolute;
+    left: 32%;
+    top: 20%;
+
+}
+
+#page9 #instagram h1 {
+    font-family: "boublast2";
+    font-size: 80px;
+}
+
+#page9 #instagram h1:nth-child(1) {
+    color: #FF859D;
+}
+
+#page9 #instagram h1:nth-child(2) {
+    color: #FFA857;
+}
+
+#page9 #instagram h1:nth-child(3) {
+    color: #C4ABE5;
+}
+
+#page9 #instagram h1:nth-child(4) {
+    color: #FF859D;
+}
+
+#page9 #instagram h1:nth-child(5) {
+
+    color: #C4ABE5;
+}
+
+#page9 #instagram h1:nth-child(6) {
+    color: #FFC8AE;
+}
+
+#page9 #instagram h1:nth-child(7) {
+    color: #FF859D;
+}
+
+#page9 #instagram h1:nth-child(8) {
+    color: #FFA857;
+}
+
+
+#page9 #instagram h1:nth-child(9) {
+    color: #C4ABE5;
+}
+
+#page9 #pics {
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    top: 35%;
+    display: flex;
+}
+
+#pics img {
+    width: 600px;
+    height: 320px;
+
+}
+
+#pics video {
+    width: 250px;
+    height: 520px;
+
 }
